@@ -99,6 +99,7 @@ export const StyledButtonHeader = styled(StyledButton)`
 export const StyledMainHome = styled.main`
   height: max-content;
   width: 100vw;
+  background-color: white;
   @media(min-width: 1024px){
     width: 80%;
     display: flex;
