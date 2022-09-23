@@ -41,7 +41,7 @@ export const RenderMain = () => {
     event.preventDefault();
 
     setPayment(
-      payment.filter((element) => {
+      allPayments.filter((element) => {
         console.log(element);
         return element.entry === event.target.id;
       })
